@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  margin: 0;
+  margin-bottom: .5em;
+}
+div{
+}
+
+:root {
+  --black: #242121;
+  --bigBodySize: 25px;
+  --h1Size: 44px;
+  --smallBodySize: 18px;
+  --sidebarSize: 15px;
+  --linkColor: #0f5aad;
+}
+
+@media screen and (max-width: 1100px) {
+  :root {
+    --bigBodySize: 27px;
+    --h1Size: 40px;
+    --smallBodySize: 19px;
+    --sidebarSize: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --bigBodySize: 19px;
+    --h1Size: 28px;
+    --smallBodySize: 18px;
+    --sidebarSize: 13px;
+  }
+}

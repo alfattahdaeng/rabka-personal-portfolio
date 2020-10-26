@@ -1,0 +1,158 @@
+.intro {
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .intro::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 41%;
+    height: 100%;
+    background-color: #E6DACE;
+  }
+  
+  .container{
+    max-width: 100%;
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .boxFrame {
+    width: 35%;
+    padding: 50px 30px;
+    text-align: center;
+    position: relative;
+    background-color: #ece9e5;
+  }
+  
+  .txtFrame {
+    position: relative;
+    width: 54%;
+    padding-top: 20px;
+  }
+  .txtFrame  h1{
+    font-size: 135px;
+    margin: 0 0 20px;
+    position: relative;
+    top: 0;
+    left: -24%;
+    line-height: 1;
+    display: inline-block;
+  }
+  .txtFrame .info{
+    position: relative;
+    top: 0;
+    left: -22%;
+  }
+  .txtFrame h1::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: #E6DACE;
+   }
+  .txtFrame p{
+   font-weight: 700;
+   line-height: 1.6em;
+   font-size: 17px;
+   margin-bottom: 1em;
+   position: relative;
+  }
+ 
+  .avatar{
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .name{
+    line-height: 1.25;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;  
+    margin-bottom: 8px;
+  }
+  
+  .line{
+    height: 3px;
+    background-color: #E6DACE;
+    border: none;
+    margin: 20px auto;
+    width: 45px;
+    position: relative;
+    display: none;
+  }
+  
+  .job{
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .c{
+    display: inline-block;
+    margin: 0 5px;
+    color: var(--linkColor);
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .container{
+      width: 800px;
+    }
+    .boxFrame{
+      width: 38%;
+    }
+    .txtFrame{
+      width: 44%;
+    }
+    .txtFrame h1{
+      font-size: 100px;
+    }
+  }
+  @media screen and (max-width: 991.98px) {
+    .intro{
+      padding: 0;
+      background-color: #ece9e5;
+    }
+    .intro::before{
+      display: none;
+    }
+    .container{
+      width: 100%;
+    }
+  
+    .txtFrame{
+      width: 100%;
+      padding: 23px 30px;
+    }
+    .txtFrame h1{
+      font-size: 55px;
+      left: 0;
+      margin: 0 0 15px;
+    }
+    .txtFrame h1:after{
+      bottom: 8px;
+      right: -20px;
+      width: 15px;
+      height: 15px;
+      background-color: black;
+    }
+    .txtFrame .info{
+      left: 0;
+    }
+  }

@@ -1,7 +1,5 @@
-# wunnle.dev - My portfolio!
+My personal portfolio
 
-A project uses markdown files as a database and renders them using React and Next.js
+build with next.js
 
-It uses Next.js to for indexing all md files initially on server side. 
-
-See it at: https://wunnle.dev
+- Akbar Alfattah
