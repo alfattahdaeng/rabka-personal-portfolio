@@ -15,10 +15,10 @@ const Home = () => (
           <div className={styles.txtFrame}>
             <h1>Hello</h1>
             <p>
-            I'm a frontend developer based in Jakarta, Indonesia. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+            I'm a frontend developer based in Jakarta, Indonesia. I like to code things from scratch and enjoy bringing ideas to life in the browser.
             </p>
             <p>
-            Trying catch up with the modern libraries that we know are always evolving :) 
+            Trying to catch up with the modern libraries that we know are always evolving :) 
             </p>
             <p>
               Currently working for full-time as frontend developer at a media company
