@@ -17,7 +17,7 @@ const Intro = () => (
             I’m a great place for you to tell a story and let your users know a little more about you.
             </p>
             <p>
-              Currently working for full-time as frontend developer at a media company
+              Currently working for full-time as frontend engineer at a media company
               based in Central of Jakarta, Indonesia.
             </p>
           </div>
@@ -25,7 +25,7 @@ const Intro = () => (
               <img className={styles.avatar} src={avatar} alt="Akbar Alfattah"/>
               <h2 className={styles.name}>Akbar Alfattah</h2>
               <hr className={styles.line}></hr>
-              <p className={styles.job}>Front End Developer</p>
+              <p className={styles.job}>Frontend Engineer</p>
               <Link href="/work">
                 <a className={styles.c}>resume</a>
               </Link>

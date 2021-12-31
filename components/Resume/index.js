@@ -18,8 +18,13 @@ const Resume = () => (
             <hr></hr>
             <h2>Experience</h2>
             <p>
+              Tribun Network - KG Media <br></br>
+              Aug 2021 - Now <br></br>
+              Frontend Engineer
+            </p>
+            <p>
               The Jakarta Post <br></br>
-              Jun 2020 - Now <br></br>
+              Jun 2020 - Jul 2021 <br></br>
               Frontend Developer
             </p>
             <p>

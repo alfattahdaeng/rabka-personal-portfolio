@@ -7,7 +7,7 @@ const Home = () => (
   <>
     <SEO
       title="Home | Akbar Alfattah"
-      description="Information of Akbar Alfattah, a Frontend Web Developer"
+      description="Information of Akbar Alfattah, a Frontend Web Engineer"
     />
      <section className={styles.intro}>
       <div className={styles.container}>
@@ -15,13 +15,13 @@ const Home = () => (
           <div className={styles.txtFrame}>
             <h1>Hello</h1>
             <p>
-            I'm a frontend developer based in Jakarta, Indonesia. I like to code things from scratch and enjoy bringing ideas to life in the browser.
+            I'm a frontend engineer based in Jakarta, Indonesia. I like to code things from scratch and enjoy bringing ideas to life in the browser.
             </p>
             <p>
             Trying to catch up with the modern libraries that we know are always evolving :) 
             </p>
             <p>
-              Currently working for full-time as frontend developer at a media company
+              Currently working for full-time as frontend engineer at a media company
               in Central of Jakarta, Indonesia.
             </p>
           </div>
@@ -29,7 +29,7 @@ const Home = () => (
               <img className={styles.avatar} src={avatar} alt="Akbar Alfattah"/>
               <h2 className={styles.name}>Akbar Alfattah</h2>
               <hr className={styles.line}></hr>
-              <p className={styles.job}>Front End Developer</p>
+              <p className={styles.job}>Frontend Engineer</p>
               <Link href="/work">
                 <a className={styles.c}>resume</a>
               </Link>
